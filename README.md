@@ -1,3 +1,5 @@
+## What is this
+
 Boilerplate to create react+babylonjs apps that can also run inside electron.
 
 This is something I made over the weekend to see how babylonjs works with reactjs and electron.
