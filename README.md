@@ -7,6 +7,12 @@ At the time I released it, The Babylonjs team doesn't seem to have solid example
 
 Hopefuly could be useful for others...
 
+## How to use
+Clone this repository, then run
+### `npm install`
+### `npm start`
+### `npm electron`
+
 ## Available Scripts
 
 In the project directory, you can run:
