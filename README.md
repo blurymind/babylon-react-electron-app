@@ -1,4 +1,17 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## What is this
+
+Boilerplate to create react+babylonjs apps that can also run inside electron.
+
+This is something I made over the weekend to see how babylonjs works with reactjs and electron.
+At the time I released it, The Babylonjs team doesn't seem to have solid examples of this, just a few code snippets.
+
+Hopefuly could be useful for others...
+
+## How to use
+Clone this repository, then run
+### `npm install`
+### `npm start`
+### `npm run electron`
 
 ## Available Scripts
 
@@ -12,12 +25,24 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
+### `npm run electron`
+
+Runs the electron app in the development mode. You will need to run npm start first.
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.<br>
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
+
+Builds the electron app
+
+### `npm run build-portable`
+
+Builds the electron app as a single executable (smaller file, but takes longer to start)
+
+### `npm run build-web`
 
 Builds the app for production to the `build` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
