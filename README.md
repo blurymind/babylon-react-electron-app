@@ -11,7 +11,7 @@ Hopefuly could be useful for others...
 Clone this repository, then run
 ### `npm install`
 ### `npm start`
-### `npm electron`
+### `npm run electron`
 
 ## Available Scripts
 
@@ -25,7 +25,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
-### `npm electron`
+### `npm run electron`
 
 Runs the electron app in the development mode. You will need to run npm start first.
 
